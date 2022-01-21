@@ -1,0 +1,23 @@
+body, p, input {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-line {
+    border: 1px solid;
+    border-radius: 0;
+}
+
+.h1, h1 {
+    font-size: 1.8rem;
+}
+
+@media screen and(min-width: 768px) {
+    h1, .h1 { 
+        font-size: 2.5rem;
+    }
+}
+
+.field-holder .form-group:nth-child(even) .txt-input{
+    background-color: #d9d9d9;
+}
